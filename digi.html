@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="digi.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="swiper-bundle.css">
+  <link rel="stylesheet" href="swiper-bundle.css">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class=heder>
+    <img class="logo" src="aks/Screenshot (190).png" alt="">
+    <div class="search-container">
+
+      <input class="serch" type="text" placeholder="جستجو">
+      <img class="jostogo" src="aks/icons8-search-50 (1).png" alt="">
+    </div>
+    <div class="sabt-nom">
+      <img class="vorod" src="aks/icons8-import-26.png" alt="">
+      <pre class="neveshte-sabt"><b>ورود | ثبت نام</b></pre>
+    </div>
+    <img class="sabad" src="aks/icons8-shopping-32-removebg-preview.png" alt="">
+  </div>
+
+  <!-------------------------------------------------------------------------------->
+  <div class="aks-estori" style="margin-top: 10px;">
+    <img src="aks/Screenshot (191).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (192).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (12).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (182).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (1952).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (19522).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (1965342).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (192696).png" alt="" style="cursor:pointer;">
+
+  </div>
+  <!------------------------------------------------------------------------------------------>
+  <div class="sliderContainer" style="text-align: center; margin-top: 10px;">
+    <img src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512(1).jpg" alt="">
+  </div>
+  <div class="btn-arrows">
+
+    <i class="fa fa-chevron-left" id="prev" onclick="prevSlide()"></i>
+    <i class="fa fa-chevron-right" id="next" onclick="nextSlide()"></i>
+  </div>
+  <script>
+
+    var slider = document.getElementsByClassName("sliderContainer").item(0);
+    var next = document.getElementById("next")
+    var prev = document.getElementById("prev")
+    var counter = 1;
+    function nextSlide() {
+      switch (counter) {
+        case 1:
+          slider.innerHTML = '<img src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512(1).jpg" />'
+          break;
+
+        case 2:
+          slider.innerHTML = ' <img src="aks/beauty-land-keratin-botox-220626.jpg" alt="">'
+          break;
+
+        case 3:
+          slider.innerHTML = '<img src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512(1).jpg" />'
+          counter = 0;
+          break;
+
+      }
+      counter++
+    }
+    function prevSlide() {
+      switch (counter) {
+        case 1:
+          slider.innerHTML = '<img src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512(1).jpg" />'
+          counter = 4;
+          break;
+        case 2:
+          slider.innerHTML = '<img src="beauty-land-keratin-botox-220626.jpg" />'
+          break;
+
+        case 3:
+          slider.innerHTML = '<img src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512(1).jpg" />'
+
+          break;
+
+
+      }
+      counter--
+    }
+
+
+    setInterval("nextSlide()", 1000)
+
+  </script>
+  <!----------------------------------------------------------------------------------------->
+
+  <div class="icon" style="margin-top: 10px;">
+    <img src="aks/Screenshot (a1).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a2).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a3).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a4).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a5).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a6).png" alt="" style="cursor:pointer;">
+    <img src="aks/Screenshot (a7).png" alt="" style="cursor:point2r;">
+  </div>
+  <div>
+  </div>
+  <!------------------------------------------------------------------------------------------------>
+  <div class="container">
+    <div class="main_digikala_slider">
+      <div class="main_slider_digikala_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide main_slider_digikala_slider_item">
+            <a href="#">
+              <img src="img/465465.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+            <a href="#">
+              <img src="img/prod.PNG" alt="">
+            </a>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+  </div>
+  <script src="swiper-bundle.js"></script>
+  <script>
+    let main_slider_digikala_slider = new Swiper('.main_slider_digikala_slider', {
+      slidesPerView: 7,
+      spaceBetween: 20,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+      return direction;
+    }
+  </script>
+  <!------------------------------------------------------------------------------------------------>
+  <div class="takhfif2">
+    <img class="jabe2" src="aks/Screenshot__j_-removebg-preview.png" alt="">
+    <pre class="neveshte-sabz"><b>شگفت انگیز سوپر مارکتی</b></pre>
+    <div class="darsad"><span>
+        <pre style="margin-top: 15px;"><b>تا 35% تخفیف</b></pre>
+      </span></div>
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <img class="aks-takhfif" src="aks/3469c6100b98639e0a6f163f6f90de5d61e1b48f_1617519512.jpg" alt="">
+    <div class="bishtar">
+      <pre class="bish"><b>بیش از 100 کالا</b></pre>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------>
+  <div class="tablig" style="margin-top: 10px;">
+    <img class="tab" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="tab" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="tab" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="tab" src="aks/The-best-toothpaste.jpg" alt="">
+  </div>
+  <!------------------------------------------------------------------------->
+  <pre class="daste"><b>خرید بر اساس دسته بندی</b></pre>
+  <div class="dastebandi">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste" src="aks/The-best-toothpaste.jpg" alt="">
+  </div>
+  <div class="dastebandi-2">
+    <img class="aks-daste-2" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste-2" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste-2" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste-2" src="aks/The-best-toothpaste.jpg" alt="">
+    <img class="aks-daste-2" src="aks/The-best-toothpaste.jpg" alt="">
+  </div>
+
+</body>
+
+</html>

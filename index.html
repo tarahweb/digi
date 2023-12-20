@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="swiper-bundle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main_digikala_slider">
+            <div class="main_slider_digikala_slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide main_slider_digikala_slider_item">
+                        <a href="#">
+                            <img src="img/465465.PNG" alt="">
+                        </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper-slide main_slider_digikala_slider_item bg_white">
+                    <a href="#">
+                        <img src="img/prod.PNG" alt="">
+                    </a>
+                  </div>
+            
+                </div>
+                <div class="swiper-button-next"></div>
+                
+              </div>
+        </div>
+    </div>
+    <script src="swiper-bundle.js"></script>
+    <script>
+        let main_slider_digikala_slider = new Swiper('.main_slider_digikala_slider', {
+          slidesPerView: 7,
+          spaceBetween: 20,
+          direction: getDirection(),
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          on: {
+            resize: function () {
+              swiper.changeDirection(getDirection());
+            },
+          },
+        });
+    
+        function getDirection() {
+          var windowWidth = window.innerWidth;
+          var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    
+          return direction;
+        }
+      </script>
+</body>
+</html>

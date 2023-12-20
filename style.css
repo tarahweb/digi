@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+.main_digikala_slider {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #EF3A4F;
+}
+.main_digikala_slider img {
+    margin-top: .5rem;
+    border-radius: .5rem;
+}
+.bg_white {
+
+}
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.swiper-button-next::after {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #333;
+}

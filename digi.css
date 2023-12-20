@@ -1,0 +1,350 @@
+@font-face {
+
+    font-family: 'nastalig';
+    src: url('IranNastaliq&Help-fontyab.com/IranNastaliq.ttf') format('truetype'),
+        url('IranNastaliq&Help-fontyab.com/IranNastaliq.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    
+    background-color: white;
+}
+
+.heder {
+
+
+    padding-top: 10px;
+    border: 1px solid rgba(123, 122, 125, 0.8);
+    display: flex;
+    justify-items: center;
+    position: sticky ;
+    top: 0;
+    z-index: 1;
+     background-color: white;
+
+}
+
+
+
+.search-container {
+    position: relative;
+
+    height: 30px;
+}
+
+.serch {
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 300px;
+
+    background-color: rgba(123, 122, 125, 0.1);
+    border: 2px solid rgba(123, 122, 125, 0.1);
+
+    padding-right: 50px;
+
+}
+
+.jostogo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 20%
+}
+
+.sabt-nom {
+    border-radius: 8px;
+    width: 150px;
+    height: 35px;
+    margin-right: auto;
+
+}
+
+.vorod {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.neveshte-sabt {
+    font-size: 20px;
+    position: relative;
+    top: -42px;
+    left: -48px;
+    font-family: nastalig;
+}
+
+.sabad {
+    width: 40px;
+    height: 40px;
+
+}
+
+.matn-pish {
+    width: 110px;
+    height: 140px;
+}
+
+/******************************************/
+.aks-estori {
+    width: 99.7%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+/*********************************************/
+.eslider {
+    width: 99.7%;
+    height: 300px;
+
+}
+
+/***********************************************/
+.icon {
+    width: 99.7%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+/***************************************************/
+
+
+.takhfif {
+    width: 98%;
+    margin-right: 10px;
+    height: 300px;
+    border: 2px solid rgb(250, 67, 74);
+    background: linear-gradient(to top, rgb(250, 67, 74), rgb(247, 41, 48));
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.pish1 {
+    font-size: 20px;
+    padding: 0;
+    position: relative;
+    right: 55px;
+    color: white;
+}
+
+.pish2 {
+    font-size: 20px;
+    padding: 0;
+    position: relative;
+    right: 55px;
+    color: white;
+}
+
+.pish3 {
+    font-size: 20px;
+    padding: 0;
+    position: relative;
+    right: 55px;
+    color: white;
+}
+
+.jabe {
+    width: 90px;
+    height: 70px;
+    position: relative;
+    right: 25px;
+    top: -180px;
+}
+
+.aks_takhfif {
+    position: relative;
+    left: -80px;
+    top: -130px;
+    z-index: 1;
+}
+
+/***************************************************/
+.takhfif2 {
+    margin-top: 50px;
+    width: 98%;
+    margin-right: 10px;
+    height: 100px;
+    background-color: rgb(215, 219, 215);
+    border-radius: 8px;
+}
+
+.jabe2 {
+    width: 65px;
+    height: 50px;
+    position: relative;
+    left: -35px;
+    top: 20px;
+}
+
+.neveshte-sabz {
+    display: inline;
+    color: rgb(45, 173, 45);
+    font-size: 40px;
+    font-family: nastalig;
+    position: relative;
+    left: -50px;
+    top: 10px;
+}
+
+.darsad {
+    background-color: rgb(45, 173, 45);
+    width: 150px;
+    height: 40px;
+    border-radius: 35px;
+    position: relative;
+    left: -380px;
+
+}
+
+span {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+
+}
+
+.aks-takhfif {
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    position: relative;
+    left: -650px;
+    top: -65px;
+}
+
+.bishtar {
+    width: 140px;
+    height: 45px;
+    border-radius: 35px;
+    position: relative;
+    background-color: white;
+    left: -1170px;
+    top: -160px;
+    margin-top: 30px;
+}
+
+.bish {
+    font-size: 15px;
+    color: rgb(45, 173, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-top: 15px;
+    margin-left: 18px;
+}
+
+/***********************************************************/
+.tablig {
+    width: 98%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    left: -10px;
+}
+
+.tab {
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+/************************************************/
+.daste {
+    font-size: 30px;
+    font-family: nastalig;
+    text-align: center;
+}
+
+.dastebandi {
+
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0px 100px 0 100px;
+}
+
+.aks-daste {
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+}
+
+.dastebandi-2 {
+    padding: 0px 150px 0 150px;
+
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 120px;
+}
+
+.aks-daste-2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+}
+
+/****************************************** /*slider main pic*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: #F1F1F1;
+}
+
+.main_digikala_slider {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #EF3A4F;
+}
+
+.main_digikala_slider img {
+    margin-top: .5rem;
+    border-radius: .5rem;
+}
+
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.swiper-button-next::after {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #333;
+}
